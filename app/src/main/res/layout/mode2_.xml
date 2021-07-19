@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mylayout"
+        android:layout_width="408dp"
+        android:layout_height="727dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        android:background="@drawable/round_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="11"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="22"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="33"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        android:background="@drawable/ic_fi_rr_circle"
+        app:layout_constraintCircleAngle="44"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="55"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="66"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button8"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="77"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button9"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="88"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button10"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="99"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button11"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="110"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button12"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="121"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button13"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="132"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button14"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="143"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button15"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="154"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button16"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="165"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button17"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="176"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button18"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="187"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button19"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="198"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button20"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="209"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button21"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="220"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button22"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="231"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button23"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="242"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button24"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="253"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button25"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="264"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button26"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="275"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button27"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="286"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button28"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="297"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button29"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="308"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button30"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="319"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button31"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="330"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+    android:background="@drawable/ic_fi_rr_circle"
+        android:id="@+id/button32"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintCircle="@+id/center"
+        app:layout_constraintCircleAngle="345"
+        app:layout_constraintCircleRadius="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12,button13,button14,button15,button16,button17,button18,button19,button20,button21,button22,button23,button24,button25,button26,button27,button28,button29,button30,button31,button32" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

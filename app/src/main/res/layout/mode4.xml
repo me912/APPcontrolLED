@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        tools:ignore="MissingConstraints">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="185dp"
+        android:id="@+id/mode4layout">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Số lượng hiệu ứng: "
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:id="@+id/textview"
+        />
+        <EditText
+            android:layout_width="wrap_content"
+            android:maxWidth="120dp"
+            android:minWidth="100dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:id="@+id/numberanimate"/>
+
+           <ImageButton
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/ic_fi_rr_add"
+               android:backgroundTint="@color/white"
+               android:id="@+id/buttonadd"
+               ></ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <ImageButton
+        android:id="@+id/send"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_fi_rr_arrow_right"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
